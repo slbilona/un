@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Dd^zfTsS5J7l#(8ijm8C">nord</variable><variable id="=/4mdLR/Y*EbNMTG=gUe">est</variable><variable id="akxnZ=oC$h(UijD+!FG-">ouest</variable><variable id="Zcz!NH|c}R*KwE;)-,Cm">sud</variable></variables><block type="pxt-on-start" id="KIfFuFY/Uh6*yhi:ro^Q" x="-447" y="-13"><statement name="HANDLER"><block type="device_print_message" id="6@v)aPNevjE@(.lqaVA5"><value name="text"><shadow type="text" id="[oyqy:S@GG1(`1,Pk|/O"><field name="TEXT">Hey !</field></shadow></value></block></statement></block><block type="device_forever" id="[Yc3ORO0Vje[ftn[!PdI" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="L(HA#ZJ;aq?%1Ym8Ox{t"><field name="i">IconNames.Heart</field><next><block type="device_pause" id="CzY[j/TV5|e?W-Do-Kf`"><value name="pause"><shadow type="timePicker" id="U0,$)fOvbokL5B,(D6yd"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="GdQ^([yBQNRM9)Pympeu"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="+b=#~/C_l#xv9RW*od0k"><value name="pause"><shadow type="timePicker" id="Suv*{f!mP9{IZ8LzUO,E"><field name="ms">200</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="every_interval" id="`a155mAG4Z$G,6K2VOF3" x="264" y="-1"><value name="interval"><shadow type="longTimePicker" id="kV{i1@Qv5dYdb$rU9886"><field name="ms">60000</field></shadow></value><statement name="HANDLER"><block type="device_show_number" id="DLp8CL3:hV?7T_;-y=/1"><value name="number"><block type="device_temperature" id=":U+.4^F-cEe#S}4a${7$"></block></value></block></statement></block><block type="device_button_event" id="+DaC1,QRov$L4Pf0tna?" x="-450" y="128"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="=kbJ+4,Y_+Nh6CwGK;4r"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="UG8XQYm.~!Lq]H.D}YVF"></block></value><statement name="DO0"><block type="basic_show_icon" id="aDM$:w{}cCCRS}i~Wix,"><field name="i">IconNames.Happy</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="~^bTf1,Z=)SX+*mvUFeQ"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . . # # . 
+        . # . . . 
+        . # # # .
+        `</field></block></statement><next><block type="device_pause" id="l;9JBLnhw5+*)Ni7{KII"><value name="pause"><shadow type="timePicker" id="zg:z3]U;)dKzliL*U:3:"><field name="ms">200</field></shadow></value></block></next></block></statement></block></xml>
