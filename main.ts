@@ -10,7 +10,7 @@ input.onButtonPressed(Button.A, function () {
             . # # # .
             `)
     }
-    basic.pause(200)
+    basic.pause(1000)
 })
 basic.showString("Hey !")
 loops.everyInterval(60000, function () {

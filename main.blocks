@@ -10,4 +10,4 @@
         . . # # . 
         . # . . . 
         . # # # .
-        `</field></block></statement><next><block type="device_pause" id="l;9JBLnhw5+*)Ni7{KII"><value name="pause"><shadow type="timePicker" id="zg:z3]U;)dKzliL*U:3:"><field name="ms">200</field></shadow></value></block></next></block></statement></block></xml>
+        `</field></block></statement><next><block type="device_pause" id="l;9JBLnhw5+*)Ni7{KII"><value name="pause"><shadow type="timePicker" id="zg:z3]U;)dKzliL*U:3:"><field name="ms">1000</field></shadow></value></block></next></block></statement></block></xml>
